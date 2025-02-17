@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Stars from '../assets/stars.jpg';
+import Stars from './assets/stars.jpg';
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
