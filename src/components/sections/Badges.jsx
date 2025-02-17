@@ -1,6 +1,6 @@
 import { RevealOnScroll } from '../RevealOnScroll';
-import Leetcode from '../assets/leetcode100.png';
-import AWS from '../assets/aws-certified-developer-associate.png';
+import Leetcode from './assets/leetcode100.png';
+import AWS from './assets/aws-certified-developer-associate.png';
 
 export const Badges = () => {
   return (
