@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Stars from '../assets/stars.jpg';
 
 export const LoadingScreen = ({ onComplete }) => {
   const [text, setText] = useState("");
@@ -26,7 +27,7 @@ export const LoadingScreen = ({ onComplete }) => {
     <div
       className="fixed inset-0 z-50 bg-black text-gray-100 flex flex-col items-center justify-center text-center"
       style={{
-        background: "url('/Saracchandra-Website/stars.jpg') no-repeat center center fixed",  
+        background: "url(${Stars}) no-repeat center center fixed",  
         backgroundSize: 'cover',  
       }}
     >
